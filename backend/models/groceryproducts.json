@@ -1,0 +1,912 @@
+[
+  {
+    "name": "Potato 1kg",
+    "description": ["Fresh and organic", "Locally sourced", "Perfect for cooking"],
+    "price": 30,
+    "offerPrice": 25,
+    "image": ["/images/vegetables/potato1.jpg", "/images/vegetables/potato2.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Onion 1kg",
+    "description": ["Farm fresh", "Long shelf life", "Pungent and tasty"],
+    "price": 40,
+    "offerPrice": 35,
+    "image": ["/images/vegetables/onion1.jpg", "/images/vegetables/onion2.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Tomato 1kg",
+    "description": ["Juicy and ripe", "Rich in lycopene", "Ideal for salads"],
+    "price": 45,
+    "offerPrice": 38,
+    "image": ["/images/vegetables/tomato1.jpg", "/images/vegetables/tomato2.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Carrot 500g",
+    "description": ["Sweet and crunchy", "Great for eyes", "Vitamin A rich"],
+    "price": 30,
+    "offerPrice": 28,
+    "image": ["/images/vegetables/carrot1.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Apple 1kg",
+    "description": ["Fresh from Kashmir", "Crisp and sweet", "Healthy snack"],
+    "price": 150,
+    "offerPrice": 130,
+    "image": ["/images/fruits/apple1.jpg", "/images/fruits/apple2.jpg"],
+    "category": "Fruits",
+    "inStock": true
+  },
+  {
+    "name": "Banana 6 pcs",
+    "description": ["Rich in potassium", "Energizing snack", "Ripened naturally"],
+    "price": 60,
+    "offerPrice": 55,
+    "image": ["/images/fruits/banana1.jpg"],
+    "category": "Fruits",
+    "inStock": true
+  },
+  {
+    "name": "Orange 1kg",
+    "description": ["Citrus delight", "Boosts immunity", "Juicy and fresh"],
+    "price": 80,
+    "offerPrice": 70,
+    "image": ["orange_image.png"],
+    "category": "Fruits",
+    "inStock": true
+  },
+  {
+    "name": "Coca-Cola 750ml",
+    "description": ["Chilled refreshment", "Great with meals", "Original taste"],
+    "price": 40,
+    "offerPrice": 35,
+    "image": ["/images/cold_drinks/coke1.jpg"],
+    "category": "Cold Drinks",
+    "inStock": true
+  },
+  {
+    "name": "Pepsi 1.25L",
+    "description": ["Bold and sweet", "Perfect for parties", "Serve chilled"],
+    "price": 60,
+    "offerPrice": 50,
+    "image": ["/images/cold_drinks/pepsi1.jpg"],
+    "category": "Cold Drinks",
+    "inStock": true
+  },
+  {
+    "name": "Sprite 500ml",
+    "description": ["Lemon-lime flavor", "No caffeine", "Instant refreshment"],
+    "price": 35,
+    "offerPrice": 30,
+    "image": ["/images/cold_drinks/sprite1.jpg"],
+    "category": "Cold Drinks",
+    "inStock": true
+  },
+  {
+    "name": "Maggi Noodles 70g",
+    "description": ["2-minute noodles", "Tasty masala flavor", "Quick snack"],
+    "price": 15,
+    "offerPrice": 12,
+    "image": ["/images/instant_food/maggi1.jpg"],
+    "category": "Instant Food",
+    "inStock": true
+  },
+  {
+    "name": "Knorr Soup Mix",
+    "description": ["Instant soup", "Multiple flavors", "Warm and delicious"],
+    "price": 45,
+    "offerPrice": 40,
+    "image": ["/images/instant_food/knorr1.jpg"],
+    "category": "Instant Food",
+    "inStock": true
+  },
+  {
+    "name": "Amul Butter 100g",
+    "description": ["Made from pure cream", "Rich flavor", "Perfect for toasts"],
+    "price": 55,
+    "offerPrice": 50,
+    "image": ["/images/dairy/amul_butter1.jpg"],
+    "category": "Dairy Products",
+    "inStock": true
+  },
+  {
+    "name": "Mother Dairy Toned Milk 1L",
+    "description": ["Pasteurized milk", "Rich in calcium", "No preservatives"],
+    "price": 60,
+    "offerPrice": 56,
+    "image": ["/images/dairy/mother_dairy_milk1.jpg"],
+    "category": "Dairy Products",
+    "inStock": true
+  },
+  {
+    "name": "Amul Cheese Cubes 200g",
+    "description": ["Soft and creamy", "Great for sandwiches", "Protein-rich"],
+    "price": 90,
+    "offerPrice": 85,
+    "image": ["/images/dairy/amul_cheese1.jpg"],
+    "category": "Dairy Products",
+    "inStock": true
+  },
+  {
+    "name": "White Bread",
+    "description": ["Soft and fluffy", "Ideal for breakfast", "No added preservatives"],
+    "price": 40,
+    "offerPrice": 35,
+    "image": ["/images/bakery/bread1.jpg"],
+    "category": "Bakery & Breads",
+    "inStock": true
+  },
+  {
+    "name": "Brown Bread",
+    "description": ["High in fiber", "Made with whole wheat", "Healthy option"],
+    "price": 45,
+    "offerPrice": 40,
+    "image": ["/images/bakery/bread2.jpg"],
+    "category": "Bakery & Breads",
+    "inStock": true
+  },
+  {
+    "name": "Chocolate Muffin",
+    "description": ["Rich cocoa flavor", "Soft and moist", "Perfect dessert"],
+    "price": 30,
+    "offerPrice": 28,
+    "image": ["/images/bakery/muffin1.jpg"],
+    "category": "Bakery & Breads",
+    "inStock": true
+  },
+  {
+    "name": "Basmati Rice 1kg",
+    "description": ["Long grain rice", "Aromatic and fluffy", "Ideal for biryani"],
+    "price": 120,
+    "offerPrice": 110,
+    "image": ["/images/grains/rice1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Wheat Flour 1kg",
+    "description": ["Stone ground", "Soft chapatis", "Whole grain goodness"],
+    "price": 45,
+    "offerPrice": 42,
+    "image": ["/images/grains/wheat1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Moong Dal 500g",
+    "description": ["Unpolished", "Rich in protein", "Easy to cook"],
+    "price": 60,
+    "offerPrice": 55,
+    "image": ["/images/grains/moongdal1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Chana Dal 500g",
+    "description": ["Unpolished", "Rich taste", "Protein-packed"],
+    "price": 65,
+    "offerPrice": 60,
+    "image": ["/images/grains/chanadal1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Soya Chunks 200g",
+    "description": ["Plant protein", "Textured vegetable protein", "Healthy meat substitute"],
+    "price": 40,
+    "offerPrice": 35,
+    "image": ["/images/grains/soya1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Paneer 200g",
+    "description": ["Fresh and soft", "High in protein", "Perfect for curries"],
+    "price": 80,
+    "offerPrice": 75,
+    "image": ["/images/dairy/paneer1.jpg"],
+    "category": "Dairy Products",
+    "inStock": true
+  },
+  {
+    "name": "Cucumber 500g",
+    "description": ["Cool and hydrating", "Crisp texture", "Great for salads"],
+    "price": 20,
+    "offerPrice": 18,
+    "image": ["/images/vegetables/cucumber1.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Pineapple 1pc",
+    "description": ["Tropical fruit", "Juicy and tangy", "Good for digestion"],
+    "price": 70,
+    "offerPrice": 65,
+    "image": ["/images/fruits/pineapple1.jpg"],
+    "category": "Fruits",
+    "inStock": true
+  },
+  {
+    "name": "Eggs 6 pcs",
+    "description": ["Farm fresh", "Protein-rich", "Versatile use"],
+    "price": 50,
+    "offerPrice": 45,
+    "image": ["/images/dairy/eggs1.jpg"],
+    "category": "Dairy Products",
+    "inStock": true
+  },
+  {
+    "name": "Lassi 200ml",
+    "description": ["Refreshing yogurt drink", "Sweet and smooth", "Natural ingredients"],
+    "price": 25,
+    "offerPrice": 22,
+    "image": ["/images/dairy/lassi1.jpg"],
+    "category": "Dairy Products",
+    "inStock": true
+  },
+  {
+    "name": "Oats 500g",
+    "description": ["Heart healthy", "Quick cooking", "High fiber content"],
+    "price": 85,
+    "offerPrice": 75,
+    "image": ["/images/grains/oats1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+
+  {
+    "name": "Capsicum 500g",
+    "description": ["Crunchy and colorful", "Good source of Vitamin C", "Perfect for stir fry"],
+    "price": 35,
+    "offerPrice": 30,
+    "image": ["/images/vegetables/capsicum1.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Brinjal 500g",
+    "description": ["Soft and tender", "Great for curry", "Farm fresh"],
+    "price": 28,
+    "offerPrice": 24,
+    "image": ["/images/vegetables/brinjal1.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Cauliflower 1pc",
+    "description": ["Snow white florets", "Perfect for gobi fry", "Organically grown"],
+    "price": 40,
+    "offerPrice": 35,
+    "image": ["/images/vegetables/cauliflower1.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Grapes Green 500g",
+    "description": ["Sweet and seedless", "Hydrating snack", "Rich in antioxidants"],
+    "price": 75,
+    "offerPrice": 65,
+    "image": ["/images/fruits/grapes1.jpg"],
+    "category": "Fruits",
+    "inStock": true
+  },
+  {
+    "name": "Papaya 1pc",
+    "description": ["Boosts digestion", "Rich in fiber", "Naturally ripened"],
+    "price": 55,
+    "offerPrice": 48,
+    "image": ["/images/fruits/papaya1.jpg"],
+    "category": "Fruits",
+    "inStock": true
+  },
+  {
+    "name": "Watermelon 1pc",
+    "description": ["Summer special", "High water content", "Naturally sweet"],
+    "price": 90,
+    "offerPrice": 80,
+    "image": ["/images/fruits/watermelon1.jpg"],
+    "category": "Fruits",
+    "inStock": true
+  },
+  {
+    "name": "Thumbs Up 750ml",
+    "description": ["Strong cola taste", "Indian favorite", "Best served chilled"],
+    "price": 40,
+    "offerPrice": 36,
+    "image": ["/images/cold_drinks/thumbsup1.jpg"],
+    "category": "Cold Drinks",
+    "inStock": true
+  },
+  {
+    "name": "Fanta 500ml",
+    "description": ["Orange flavored drink", "Refreshing", "No caffeine"],
+    "price": 35,
+    "offerPrice": 30,
+    "image": ["/images/cold_drinks/fanta1.jpg"],
+    "category": "Cold Drinks",
+    "inStock": true
+  },
+  {
+    "name": "7UP 500ml",
+    "description": ["Lemon flavored soda", "No caffeine", "Cool and crisp"],
+    "price": 35,
+    "offerPrice": 30,
+    "image": ["/images/cold_drinks/7up1.jpg"],
+    "category": "Cold Drinks",
+    "inStock": true
+  },
+  {
+    "name": "Top Ramen Curry Noodles",
+    "description": ["Desi masala flavor", "Quick and tasty", "Kids’ favorite"],
+    "price": 20,
+    "offerPrice": 15,
+    "image": ["/images/instant_food/topramen1.jpg"],
+    "category": "Instant Food",
+    "inStock": true
+  },
+  {
+    "name": "Patanjali Atta Noodles",
+    "description": ["Wheat-based", "Spicy Indian flavor", "No maida"],
+    "price": 20,
+    "offerPrice": 16,
+    "image": ["/images/instant_food/patanjali1.jpg"],
+    "category": "Instant Food",
+    "inStock": true
+  },
+  {
+    "name": "Amul Kool Kesar 200ml",
+    "description": ["Saffron flavored milk", "Chilled drink", "Rich and creamy"],
+    "price": 25,
+    "offerPrice": 22,
+    "image": ["/images/dairy/amul_kool1.jpg"],
+    "category": "Dairy Products",
+    "inStock": true
+  },
+  {
+    "name": "Nestle Milkmaid 400g",
+    "description": ["Sweetened condensed milk", "Used in desserts", "Long shelf life"],
+    "price": 120,
+    "offerPrice": 110,
+    "image": ["/images/dairy/milkmaid1.jpg"],
+    "category": "Dairy Products",
+    "inStock": true
+  },
+  {
+    "name": "Cream Roll Chocolate",
+    "description": ["Chocolate coated sponge", "Filled with cream", "Delicious dessert"],
+    "price": 25,
+    "offerPrice": 22,
+    "image": ["/images/bakery/creamroll1.jpg"],
+    "category": "Bakery & Breads",
+    "inStock": true
+  },
+  {
+    "name": "Garlic Bread",
+    "description": ["Infused with garlic and herbs", "Crispy edges", "Great snack"],
+    "price": 60,
+    "offerPrice": 50,
+    "image": ["/images/bakery/garlicbread1.jpg"],
+    "category": "Bakery & Breads",
+    "inStock": true
+  },
+  {
+    "name": "Masala Bun",
+    "description": ["Spicy stuffing", "Soft bun texture", "Bakery special"],
+    "price": 20,
+    "offerPrice": 18,
+    "image": ["/images/bakery/masalabun1.jpg"],
+    "category": "Bakery & Breads",
+    "inStock": true
+  },
+  {
+    "name": "Ragi Flour 1kg",
+    "description": ["Gluten-free grain", "Diabetic friendly", "High in calcium"],
+    "price": 55,
+    "offerPrice": 50,
+    "image": ["/images/grains/ragi1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Corn Flour 500g",
+    "description": ["Fine white powder", "Used in soups and sauces", "Thickening agent"],
+    "price": 35,
+    "offerPrice": 30,
+    "image": ["/images/grains/cornflour1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Chia Seeds 250g",
+    "description": ["Rich in omega-3", "Boosts digestion", "Weight loss friendly"],
+    "price": 90,
+    "offerPrice": 85,
+    "image": ["/images/grains/chia1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Poha 500g",
+    "description": ["Flattened rice", "Quick to cook", "Perfect for breakfast"],
+    "price": 35,
+    "offerPrice": 32,
+    "image": ["/images/grains/poha1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Curd 200g",
+    "description": ["Fresh and creamy", "Probiotic rich", "Great for digestion"],
+    "price": 30,
+    "offerPrice": 28,
+    "image": ["/images/dairy/curd1.jpg"],
+    "category": "Dairy Products",
+    "inStock": true
+  },
+  {
+    "name": "Cheese Spread 200g",
+    "description": ["Creamy cheese spread", "Perfect for sandwiches", "Easy to use"],
+    "price": 70,
+    "offerPrice": 65,
+    "image": ["/images/dairy/cheesesprea1.jpg"],
+    "category": "Dairy Products",
+    "inStock": true
+  },
+  {
+    "name": "Radish 500g",
+    "description": ["Fresh and crunchy", "Ideal for salads and parathas", "High in fiber"],
+    "price": 20,
+    "offerPrice": 18,
+    "image": ["/images/vegetables/radish1.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Beetroot 500g",
+    "description": ["Rich in iron", "Sweet and earthy flavor", "Good for blood health"],
+    "price": 25,
+    "offerPrice": 22,
+    "image": ["/images/vegetables/beetroot1.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Lady Finger 500g",
+    "description": ["Tender and fresh", "Perfect for bhindi masala", "Low in calories"],
+    "price": 35,
+    "offerPrice": 30,
+    "image": ["/images/vegetables/ladyfinger1.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Mango 1kg",
+    "description": ["Alphonso variety", "Juicy and sweet", "Seasonal delight"],
+    "price": 120,
+    "offerPrice": 110,
+    "image": ["/images/fruits/mango1.jpg"],
+    "category": "Fruits",
+    "inStock": true
+  },
+  {
+    "name": "Kiwi 3pcs",
+    "description": ["Tangy and sweet", "Rich in Vitamin C", "Exotic fruit"],
+    "price": 90,
+    "offerPrice": 80,
+    "image": ["/images/fruits/kiwi1.jpg"],
+    "category": "Fruits",
+    "inStock": true
+  },
+  {
+    "name": "Pomegranate 500g",
+    "description": ["Fresh arils", "Good for immunity", "Antioxidant-rich"],
+    "price": 85,
+    "offerPrice": 75,
+    "image": ["/images/fruits/pomegranate1.jpg"],
+    "category": "Fruits",
+    "inStock": true
+  },
+  {
+    "name": "Red Bull 250ml",
+    "description": ["Energy drink", "Boosts stamina", "With caffeine and taurine"],
+    "price": 110,
+    "offerPrice": 100,
+    "image": ["/images/cold_drinks/redbull1.jpg"],
+    "category": "Cold Drinks",
+    "inStock": true
+  },
+  {
+    "name": "Appy Fizz 500ml",
+    "description": ["Sparkling apple juice", "Refreshing taste", "Best served cold"],
+    "price": 40,
+    "offerPrice": 35,
+    "image": ["/images/cold_drinks/appyfizz1.jpg"],
+    "category": "Cold Drinks",
+    "inStock": true
+  },
+  {
+    "name": "Bournvita 500g",
+    "description": ["Health drink mix", "Rich in vitamins", "Loved by kids"],
+    "price": 230,
+    "offerPrice": 210,
+    "image": ["/images/dairy/bournvita1.jpg"],
+    "category": "Dairy Products",
+    "inStock": true
+  },
+  {
+    "name": "Boost 500g",
+    "description": ["Energy drink powder", "Chocolate flavor", "Supports growth"],
+    "price": 240,
+    "offerPrice": 220,
+    "image": ["/images/dairy/boost1.jpg"],
+    "category": "Dairy Products",
+    "inStock": true
+  },
+  {
+    "name": "Bun Pav 6pcs",
+    "description": ["Soft and fluffy", "Mumbai street style", "Great with bhaji"],
+    "price": 30,
+    "offerPrice": 28,
+    "image": ["/images/bakery/bunpav1.jpg"],
+    "category": "Bakery & Breads",
+    "inStock": true
+  },
+  {
+    "name": "Multigrain Bread",
+    "description": ["Loaded with grains", "High in fiber", "Healthy breakfast option"],
+    "price": 55,
+    "offerPrice": 50,
+    "image": ["/images/bakery/multigrainbread1.jpg"],
+    "category": "Bakery & Breads",
+    "inStock": true
+  },
+  {
+    "name": "Sweet Bun",
+    "description": ["Lightly sweetened", "Soft and fresh", "Perfect evening snack"],
+    "price": 20,
+    "offerPrice": 18,
+    "image": ["/images/bakery/sweetbun1.jpg"],
+    "category": "Bakery & Breads",
+    "inStock": true
+  },
+  {
+    "name": "Barley Flour 500g",
+    "description": ["High in fiber", "Used in porridge and rotis", "Helps in digestion"],
+    "price": 45,
+    "offerPrice": 40,
+    "image": ["/images/grains/barley1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Jowar Flour 1kg",
+    "description": ["Gluten-free millet flour", "Traditional Indian grain", "Nutritious"],
+    "price": 50,
+    "offerPrice": 45,
+    "image": ["/images/grains/jowar1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Toor Dal 1kg",
+    "description": ["Protein rich", "Essential Indian dal", "Unpolished variety"],
+    "price": 100,
+    "offerPrice": 90,
+    "image": ["/images/grains/toordal1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Masoor Dal 1kg",
+    "description": ["Rich in protein", "Cooks quickly", "Split red lentils"],
+    "price": 90,
+    "offerPrice": 82,
+    "image": ["/images/grains/masoordal1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Sabudana 500g",
+    "description": ["Sago pearls", "Used in fasting recipes", "High energy"],
+    "price": 50,
+    "offerPrice": 45,
+    "image": ["/images/grains/sabudana1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Cornflakes 500g",
+    "description": ["Crunchy breakfast cereal", "Low fat", "Quick breakfast"],
+    "price": 140,
+    "offerPrice": 130,
+    "image": ["/images/grains/cornflakes1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Idli Rava 1kg",
+    "description": ["Coarse rice flour", "Perfect for soft idlis", "South Indian staple"],
+    "price": 60,
+    "offerPrice": 55,
+    "image": ["/images/grains/idlirava1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Spring Onion 250g",
+    "description": ["Fresh greens", "Mild onion flavor", "Ideal for garnishing"],
+    "price": 18,
+    "offerPrice": 15,
+    "image": ["/images/vegetables/springonion1.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Green Beans 500g",
+    "description": ["Crisp and tender", "Rich in fiber", "Perfect for stir-fry"],
+    "price": 40,
+    "offerPrice": 35,
+    "image": ["/images/vegetables/greenbeans1.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Lemon 250g",
+    "description": ["Fresh and juicy", "Rich in Vitamin C", "Great for detox"],
+    "price": 20,
+    "offerPrice": 18,
+    "image": ["/images/vegetables/lemon1.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Pumpkin 1kg",
+    "description": ["Sweet flesh", "Used in soups & curries", "High in beta-carotene"],
+    "price": 35,
+    "offerPrice": 30,
+    "image": ["/images/vegetables/pumpkin1.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Sweet Corn 2pcs",
+    "description": ["Juicy kernels", "Great for snacking", "Steam or boil"],
+    "price": 40,
+    "offerPrice": 36,
+    "image": ["/images/vegetables/sweetcorn1.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Pineapple Slices Can 500g",
+    "description": ["Sweet & tangy", "Ready to eat", "Preserved in syrup"],
+    "price": 90,
+    "offerPrice": 80,
+    "image": ["/images/fruits/cannedpineapple1.jpg"],
+    "category": "Fruits",
+    "inStock": true
+  },
+  {
+    "name": "Dates (Khajoor) 250g",
+    "description": ["Natural energy booster", "Iron rich", "No added sugar"],
+    "price": 65,
+    "offerPrice": 60,
+    "image": ["/images/fruits/dates1.jpg"],
+    "category": "Fruits",
+    "inStock": true
+  },
+  {
+    "name": "Guava 1kg",
+    "description": ["Vitamin C rich", "Crisp and sweet", "Good for digestion"],
+    "price": 55,
+    "offerPrice": 48,
+    "image": ["/images/fruits/guava1.jpg"],
+    "category": "Fruits",
+    "inStock": true
+  },
+  {
+    "name": "Lychee 500g",
+    "description": ["Delicious summer fruit", "Hydrating", "Rich in antioxidants"],
+    "price": 70,
+    "offerPrice": 62,
+    "image": ["/images/fruits/lychee1.jpg"],
+    "category": "Fruits",
+    "inStock": true
+  },
+  {
+    "name": "Coconut Water 200ml",
+    "description": ["Natural hydration", "Electrolyte booster", "Low calorie"],
+    "price": 40,
+    "offerPrice": 35,
+    "image": ["/images/cold_drinks/coconutwater1.jpg"],
+    "category": "Cold Drinks",
+    "inStock": true
+  },
+  {
+    "name": "Bisleri Mineral Water 1L",
+    "description": ["Pure drinking water", "Safe and hygienic", "Trusted brand"],
+    "price": 20,
+    "offerPrice": 18,
+    "image": ["/images/cold_drinks/bisleri1.jpg"],
+    "category": "Cold Drinks",
+    "inStock": true
+  },
+  {
+    "name": "Amul Kool Rose 200ml",
+    "description": ["Rose flavored milk", "Tastes like dessert", "Serve chilled"],
+    "price": 25,
+    "offerPrice": 22,
+    "image": ["/images/dairy/amul_kool_rose1.jpg"],
+    "category": "Dairy Products",
+    "inStock": true
+  },
+  {
+    "name": "Nandini Curd 500g",
+    "description": ["Thick and creamy", "Probiotic-rich", "South Indian taste"],
+    "price": 30,
+    "offerPrice": 28,
+    "image": ["/images/dairy/nandini_curd1.jpg"],
+    "category": "Dairy Products",
+    "inStock": true
+  },
+  {
+    "name": "Herbal Bread",
+    "description": ["Infused with herbs", "Soft and fragrant", "Healthy option"],
+    "price": 55,
+    "offerPrice": 50,
+    "image": ["/images/bakery/herbalbread1.jpg"],
+    "category": "Bakery & Breads",
+    "inStock": true
+  },
+  {
+    "name": "Fruit Cake Slice",
+    "description": ["Moist and fruity", "Perfect for tea time", "Baked with love"],
+    "price": 30,
+    "offerPrice": 28,
+    "image": ["/images/bakery/fruitcake1.jpg"],
+    "category": "Bakery & Breads",
+    "inStock": true
+  },
+  {
+    "name": "Paneer Bread Roll",
+    "description": ["Stuffed snack", "Spiced paneer filling", "Ready to heat & eat"],
+    "price": 40,
+    "offerPrice": 35,
+    "image": ["/images/bakery/paneerroll1.jpg"],
+    "category": "Bakery & Breads",
+    "inStock": true
+  },
+  {
+    "name": "Couscous 500g",
+    "description": ["Instant cooking", "North African grain", "Light and fluffy"],
+    "price": 85,
+    "offerPrice": 78,
+    "image": ["/images/grains/couscous1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Dalia 1kg",
+    "description": ["Broken wheat", "Healthy porridge", "Fiber rich"],
+    "price": 55,
+    "offerPrice": 50,
+    "image": ["/images/grains/dalia1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Rajma Red 1kg",
+    "description": ["Protein rich beans", "Perfect for curry", "Punjabi style"],
+    "price": 100,
+    "offerPrice": 95,
+    "image": ["/images/grains/rajma1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Black Chana 1kg",
+    "description": ["Desi chana", "High protein", "Perfect for sprouts"],
+    "price": 85,
+    "offerPrice": 78,
+    "image": ["/images/grains/blackchana1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Idli Mix Instant 500g",
+    "description": ["Ready mix", "Soft idlis", "Easy to prepare"],
+    "price": 60,
+    "offerPrice": 55,
+    "image": ["/images/instant_food/idlix1.jpg"],
+    "category": "Instant Food",
+    "inStock": true
+  },
+  {
+    "name": "Dhokla Mix Instant 200g",
+    "description": ["Gujarati snack", "Fluffy & tangy", "Just add water"],
+    "price": 45,
+    "offerPrice": 40,
+    "image": ["/images/instant_food/dhokla1.jpg"],
+    "category": "Instant Food",
+    "inStock": true
+  },
+  {
+    "name": "Upma Mix Instant 250g",
+    "description": ["South Indian style", "Quick breakfast", "Tempered flavors"],
+    "price": 55,
+    "offerPrice": 50,
+    "image": ["/images/instant_food/upma1.jpg"],
+    "category": "Instant Food",
+    "inStock": true
+  },
+  {
+    "name": "Vegetable Soup Cup 35g",
+    "description": ["Ready in 2 mins", "Hot and savory", "Easy snack"],
+    "price": 20,
+    "offerPrice": 18,
+    "image": ["/images/instant_food/vegsoup1.jpg"],
+    "category": "Instant Food",
+    "inStock": true
+  },
+  {
+    "name": "Sabja Seeds 100g",
+    "description": ["Falooda seeds", "Cooling effect", "High fiber"],
+    "price": 30,
+    "offerPrice": 28,
+    "image": ["/images/grains/sabja1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  },
+  {
+    "name": "Dry Figs 250g",
+    "description": ["Naturally sweet", "Good for digestion", "Soft texture"],
+    "price": 130,
+    "offerPrice": 120,
+    "image": ["/images/fruits/figs1.jpg"],
+    "category": "Fruits",
+    "inStock": true
+  },
+  {
+    "name": "Green Peas Frozen 500g",
+    "description": ["Frozen for freshness", "Sweet and tender", "No preservatives"],
+    "price": 65,
+    "offerPrice": 60,
+    "image": ["/images/vegetables/peasfrozen1.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Frozen Mix Veg 500g",
+    "description": ["Peas, carrots, corn", "Quick cooking", "No peeling needed"],
+    "price": 70,
+    "offerPrice": 65,
+    "image": ["/images/vegetables/mixedveg1.jpg"],
+    "category": "Vegetables",
+    "inStock": true
+  },
+  {
+    "name": "Sweet Lassi 200ml",
+    "description": ["Traditional yogurt drink", "Sweet and cooling", "Natural"],
+    "price": 25,
+    "offerPrice": 22,
+    "image": ["/images/dairy/lassi_sweet1.jpg"],
+    "category": "Dairy Products",
+    "inStock": true
+  },
+  {
+    "name": "Muesli 400g",
+    "description": ["Multigrain breakfast", "Loaded with fruits & nuts", "High fiber"],
+    "price": 170,
+    "offerPrice": 155,
+    "image": ["/images/grains/muesli1.jpg"],
+    "category": "Grains & Cereals",
+    "inStock": true
+  }
+]
